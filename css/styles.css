@@ -35,6 +35,7 @@ a {
 
 .nav-list {
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 /* .nav-list {} */
@@ -42,9 +43,16 @@ a {
 /* #endregion Logo */
 
 /* #region Contacts */
+.contacts {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
 .contacts:hover,
 .contacts:focus {
-  color: #404bbf
+  color: #404bbf;
 }
 /* #endregion Contacts */
 
@@ -62,11 +70,12 @@ a {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 .hero-button {
   font-weight: 500;
-  /* letter-spacing: */
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 
@@ -163,6 +172,8 @@ a {
 }
 
 .footer-desc {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #f4f4f4;
 }
 /* #endregion Footer */
