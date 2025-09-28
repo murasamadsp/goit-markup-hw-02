@@ -1,9 +1,10 @@
 /* #region Global styles */
-
 body {
   font-family: "Roboto", sans-serif;
   color: var(--SLATE, #434455);
   background-color: #ffffff;
+  /* letter-spacing: */
+  line-height: 24px;
 }
 
 ul {
@@ -13,16 +14,139 @@ ul {
 a {
   text-decoration: none;
 }
-
 /* #endregion Global styles */
 
 /* #region Header */
-header {
+
+/* #region Logo */
+.nav-logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 3%;
+  text-transform: uppercase;
 }
 
-nav {
+.nav-logo-web {
+  color: rgba(77, 90, 229, 1);
 }
+
+.nav-logo-studio {
+  color: rgba(46, 47, 66, 1);
+}
+
+.nav-list {
+  font-weight: 500;
+}
+
+/* #endregion Logo */
+
+/* #region Contacts */
+.contacts:hover,
+.contacts:focus {
+  color: rgb(167, 168, 185);
+}
+/* #endregion Contacts */
+
 /* #endregion Header */
+
+/* #region Main */
+
+/* #region Hero */
+
+.hero {
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.hero-button {
+  font-weight: 500;
+  /* letter-spacing: */
+  cursor: pointer;
+}
+
+/* #endregion Hero */
+
+/* #region Benefits List */
+
+.benefits-list-title {
+  visibility: hidden;
+}
+
+/* .benefits-list-item {} */
+
+.benefits-title {
+  color: rgb(46, 47, 66);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.benefits-desc {
+  font-weight: 400;
+  color: rgb(67, 68, 85);
+}
+
+/* #endregion Benefits List */
+
+/* #region Team List */
+
+.team-list-title {
+  color: rgb(46, 47, 66);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+}
+
+/* .team-list {} */
+
+.team-list-item {
+  text-align: center;
+}
+
+.team-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.team-desc {
+  font-weight: 400;
+}
+
+/* #endregion Team List */
+
+/* #region Portfolio List */
+
+.portfolio-list-title {
+  color: rgb(46, 47, 66);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+}
+
+/* .portfolio-list {} */
+
+/* .portfolio-list-item {} */
+
+.portfolio-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.portfolio-desc {
+  font-weight: 400;
+}
+
+/* #endregion Portfolio List */
+
+/* #endregion Main */
 
 /* #region Footer */
 footer {
