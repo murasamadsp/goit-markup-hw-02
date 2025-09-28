@@ -20,6 +20,7 @@ a {
 
 /* #region Logo */
 .nav-logo {
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -38,11 +39,30 @@ a {
   letter-spacing: 0.02em;
 }
 
+.nav-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
 /* .nav-list {} */
 
 /* #endregion Logo */
 
 /* #region Contacts */
+.contacts-list {
+  font-style: normal;
+}
+
+.contacts-list-item {
+}
+
 .contacts {
   font-size: 16px;
   line-height: 1.5;
@@ -114,7 +134,7 @@ a {
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11;
+  line-height: 1.2;
   text-align: center;
 }
 
@@ -142,8 +162,9 @@ a {
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11;
+  line-height: 1.2;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .portfolio-list {
