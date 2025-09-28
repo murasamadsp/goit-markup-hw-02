@@ -26,7 +26,7 @@ a {
   line-height: 1.17;
   letter-spacing: 3%;
   text-transform: uppercase;
-  letter-spacing: 0.03em
+  letter-spacing: 0.03em;
 }
 
 .nav-logo span {
@@ -44,7 +44,7 @@ a {
 /* #region Contacts */
 .contacts:hover,
 .contacts:focus {
-  color: #a7a8b9;
+  color: #404bbf
 }
 /* #endregion Contacts */
 
@@ -85,10 +85,12 @@ a {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 .benefits-desc {
   color: #434455;
+  letter-spacing: 0.02em;
 }
 
 /* #endregion Benefits List */
@@ -116,9 +118,11 @@ a {
 .team-title {
   font-size: 20px;
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 .team-desc {
+  letter-spacing: 0.02em;
 }
 
 /* #endregion Team List */
@@ -142,9 +146,11 @@ a {
 .portfolio-title {
   font-size: 20px;
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 .portfolio-desc {
+  letter-spacing: 0.02em;
 }
 
 /* #endregion Portfolio List */
