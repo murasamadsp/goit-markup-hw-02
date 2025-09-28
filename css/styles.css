@@ -26,18 +26,11 @@ a {
   line-height: 1.17;
   letter-spacing: 3%;
   text-transform: uppercase;
+  letter-spacing: 0.03em
 }
 
-.nav-logo-web {
-  color: #4d5ae5;
-}
-
-.nav-logo-studio-black {
+.nav-logo span {
   color: #2e2f42;
-}
-
-.nav-logo-studio-white {
-  color: #f4f4fd;
 }
 
 .nav-list {
