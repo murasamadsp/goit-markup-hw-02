@@ -84,6 +84,7 @@ a {
 
 .hero {
   text-align: center;
+  background-color: #2e2f42;
 }
 
 .hero-title {
@@ -91,14 +92,22 @@ a {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
 .hero-button {
   font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  color: #ffffff;
+  background-color: #4d5ae5;
 }
 
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
 /* #endregion Hero */
 
 /* #region Benefits List */
@@ -129,6 +138,7 @@ a {
 
 .team {
   background-color: #f4f4fd;
+  text-transform: capitalize;
 }
 
 .team-list-title {
@@ -137,9 +147,11 @@ a {
   font-weight: 700;
   line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .team-list {
+  background-color: #ffffff;
 }
 
 .team-list-item {
@@ -167,6 +179,8 @@ a {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
+
 }
 
 .portfolio-list {
