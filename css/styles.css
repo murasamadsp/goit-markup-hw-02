@@ -1,0 +1,30 @@
+/* #region Global styles */
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--SLATE, #434455);
+  background-color: #ffffff;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* #endregion Global styles */
+
+/* #region Header */
+header {
+}
+
+nav {
+}
+/* #endregion Header */
+
+/* #region Footer */
+footer {
+}
+/* #endregion Footer */
